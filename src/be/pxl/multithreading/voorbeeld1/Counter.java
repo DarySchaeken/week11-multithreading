@@ -24,7 +24,6 @@ public class Counter extends Thread {
 
 	private void print(String text) {
 		System.out.println(outputColor.getColorCode() + " " + text + " " + OutputColor.BLACK.getColorCode());
-
 	}
 
 }
